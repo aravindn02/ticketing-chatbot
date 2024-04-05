@@ -1,6 +1,4 @@
-NOTE:The Notebook folder has actual code to train the model and some datasets. The frontend and backend can be run without the help of this folder,so no need to download that.
 
-The FrontEnd Video folder has videos of few workflow cases of the front end
 
 To run the backend:
 
