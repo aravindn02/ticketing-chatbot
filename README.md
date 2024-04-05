@@ -47,8 +47,3 @@ To run the frontend:
 3. run -- serve -s build -l [PORT_NUMBER]
 4. For sample inputs,refer to inputs.txt
 
-
- NOTE: In case of user overriding a invalid input and getting a solution,it is stored in the database but with a flag that this was an overriden issue. 
- 
- --In case of checking ticket,user enters the ticket id
- --If it exists,then the details are shown,else it is shown that there is no such ticket.
