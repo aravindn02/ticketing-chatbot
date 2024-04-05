@@ -38,7 +38,7 @@ To run the backend:
    headers = {"Authorization": "your_api_token"}
    ```
 4. Change the path-    ```df=pd.read_csv("your_path/spring_gh_dataset_2.csv")```
-5. run ```pip install -r final.txt to install the required packages```
+5. run ```pip install -r final.txt``` to install the required packages
 6. run ```uvicorn BackEnd:app --reload```
 
 To run the frontend:
