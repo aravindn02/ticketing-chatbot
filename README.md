@@ -28,22 +28,24 @@ The flow of this Application:
 
 To run the backend:
 
-1. open the BackEnd.py file
+1. Open the BackEnd.py file
 2. Change the paths to your actual path without changing the file name and change the api token
+   ```
    new_model = AutoModelForSequenceClassification.from_pretrained('your_path/Bert82_82')
    type_clf=AutoModelForSequenceClassification.from_pretrained('your_path/TypeClf')
    new_tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
    API_URL = "https://api-inference.huggingface.co/models/google/pegasus-large"
    headers = {"Authorization": "your_api_token"}
-3. In line 54 of the code change the path- df=pd.read_csv("your_path/spring_gh_dataset_2.csv")
-4. run -- pip install -r final.txt to install the required packages
-5. run -- uvicorn BackEnd:app --reload
+   ```
+4. Change the path-    ```df=pd.read_csv("your_path/spring_gh_dataset_2.csv")```
+5. run ```pip install -r final.txt to install the required packages```
+6. run ```uvicorn BackEnd:app --reload```
 
 To run the frontend:
 
 
 1. install node js
-2. run -- npm install -g serve
-3. run -- serve -s build -l [PORT_NUMBER]
+2. run ```npm install -g serve```
+3. run ``` serve -s build -l [PORT_NUMBER]```
 4. For sample inputs,refer to inputs.txt
 
