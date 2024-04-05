@@ -1,0 +1,2 @@
+Make it easier to package certain content in the root of a fat jar --Enhancement
+Spring Boot 3 Native Fails to Start with Kotlin @JvmStatic Main Method --Bug
