@@ -1,3 +1,5 @@
+**Contributed by Aravindalochanan.N**
+
 The flow of this Application:
 1. User chooses to Raise a new issue or Check/Update an already raised ticket.
 2. If new issue:
@@ -45,12 +47,7 @@ To run the frontend:
 3. run -- serve -s build -l [PORT_NUMBER]
 4. For sample inputs,refer to inputs.txt
 
-Workflow of Frontend
- --Whether new issue input or checking existing ticket?
- --for new issue,user enters the input
- --model tells whether it's valid or not. User can accept this or reject this and override the model decision
- --model gives a solution-If user accepts,then for the purpose of other users,the solutions that worked are received from user
- --If rejected,model tries again. User can further reject and this will go for 3 times after which a ticket is created 
+
  NOTE: In case of user overriding a invalid input and getting a solution,it is stored in the database but with a flag that this was an overriden issue. 
  
  --In case of checking ticket,user enters the ticket id
